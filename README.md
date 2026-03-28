@@ -1,12 +1,11 @@
 # HooToo-Tripmate-HT-TM02
-# HooToo TripMate HT‑TM02 — Full Recovery & LEDE/OpenWrt Resurrection Guide 
 
 Before we start, 
 How do i open a Hootoo? How do i connect the hootoo? If you need guidance, scroll down to resources,  
 
 The video in the resources section will help you open, connect and get wired up.
 
-HooToo-HT-TM02-Recovery
+                  HooToo-HT-TM02-Recovery
 # HooToo TripMate HT‑TM02 — Full Recovery & LEDE/OpenWrt Resurrection Guide
 
 This repository documents the **complete, real‑world recovery process** for the HooToo TripMate HT‑TM02 — including serial access, initramfs booting, raw MTD flashing, and final configuration.  
@@ -331,3 +330,8 @@ Linked here to help others attempting to unbrick or restore the HT‑TM02.*
 - OpenWrt Forum — Debricking discussions  
   https://forum.openwrt.org/
 
+
+# Appendix
+
+Before i finish my thank you's and credits i must credit Microsoft Co-Pilot for helping me in this trip to recovery, however its a backhanded slap because my journey began with a fully operational HooToo which was running openwrt 19.xx anyway. Let me explain:-  Allas it began,  "I" in my quest for all things better and faster, newer and stronger asked Co-Pilot a question. "How can i make this HooToo a little faster, snappier and run overall better" Not that it was running badly, worked fine and stable since i flashed it in circa 2016. A confident response was "Wingspinner" works great on the HooToo, takes up less room and is flashable from within the Luci interface. I queried the actual flash ability to downgrade to wingspinner and was assured for all the good reasons it would work. I have to say this is not the first time i fell for this, but once again i fell for this ,grrrrr. So we located the correct Wingspinner, or what i was told would be correct. Uploaded and flashed it. The result? A nice tiny, shiny , black Hootoo box with green and blue lights on it, always on but nobody home. Hence my journey began. Co Pilot was quick to provide solutions, download this from here and there, then upload it. Aparently not one site had the firmware required and after a day of searching we built our own packages with the copilots guidance on a linux machine, running a debian9 container. Get that? the amount of crap just to get a HooToo going. This actually worked and we had a nice folder full of files. Next, the problem was getting the packages loaded. Putty, Tftpd64, etc,,  Hence the journey to recovery began. 
+The packages i have uploaded to this repository are the ones i created and uploaded to my HooToo. So i hope they work for anyone out there with the same issue and enthusiasm for journeys to recovery. Regards. 
