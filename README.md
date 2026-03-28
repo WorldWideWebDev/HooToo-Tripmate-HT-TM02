@@ -1,4 +1,11 @@
 # HooToo-Tripmate-HT-TM02
+# HooToo TripMate HT‑TM02 — Full Recovery & LEDE/OpenWrt Resurrection Guide 
+
+Before we start, 
+How do i open a Hootoo? How do i connect the hootoo? If you need guidance, scroll down to resources,  
+
+The video in the resources section will help you open, connect and get wired up.
+
 HooToo-HT-TM02-Recovery
 # HooToo TripMate HT‑TM02 — Full Recovery & LEDE/OpenWrt Resurrection Guide
 
@@ -293,4 +300,34 @@ This guide exists so the next technician doesn’t have to fight through:
 - and the fear of bricking the device permanently  
 
 If this helped you, consider contributing improvements or sharing your own recovery story.
+
+
+## 📚 Resources
+
+### 🎥 Video Guide
+[![Watch on YouTube](https://img.shields.io/badge/▶_Watch_on_YouTube-red?style=for-the-badge)](https://www.youtube.com/watch?v=H49qRZCimNA)
+
+[![Hootoo Tripmate Nano OpenWRT Password Recovery](https://img.youtube.com/vi/H49qRZCimNA/0.jpg)](https://www.youtube.com/watch?v=H49qRZCimNA)
+
+*Credit: Original recovery demonstration by the YouTube creator.  
+Thanbk you AReResearch  @AReResearch
+Linked here to help others attempting to unbrick or restore the HT‑TM02.*
+
+---
+
+### 📄 Documentation & Files
+- Serial logs (coming soon)
+- Working LEDE/OpenWrt images
+- Known‑good `/etc/config` files
+- MTD layout reference
+- Recovery commands & notes
+
+---
+
+### 🔗 Useful Links
+- OpenWrt Wiki — HooToo TripMate Nano  
+  https://openwrt.org/toh/hootoo/tripmate-nano
+  
+- OpenWrt Forum — Debricking discussions  
+  https://forum.openwrt.org/
 
